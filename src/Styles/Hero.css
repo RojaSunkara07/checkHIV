@@ -1,0 +1,246 @@
+.hero-section {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+/* Text section */
+.text-section {
+    flex-grow: 1;
+    width: 60%;
+    padding: 0 32px;
+    margin-top: 200px;
+    margin-left:700px;
+}
+.text-headline {
+    margin-bottom: 12px;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.text-title {
+    width: 500px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text-descritpion {
+    width: 475px;
+    margin: 32px 0;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+    line-height: 1.6rem;
+}
+.text-appointment-btn {
+    padding: 14px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #9B0113;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-right: 10px;
+}
+.text-appointment-btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+
+
+/* Scroll Btn */
+.scroll-up {
+    width: 45px;
+    height: 45px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #9B0113;
+    position: fixed;
+    bottom: 20px;
+    right: 90px;
+    font-size: 24px;
+    z-index: 20;
+    cursor: pointer;
+}  
+.show-scroll {
+  display: flex;
+}
+/*Chatbot*/
+.chat-icon {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #9B0113; /* Chat icon background color */
+    color: #fff; /* Chat icon color */
+    border-radius: 50%; /* Make it round */
+    border: 2px;
+    border-color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 99999;
+  }
+  .chat-icon:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  }
+  .chat-icon.active {
+    background-color: #fff; /* Change background color when chat is open */
+    color: #9B0113; /* Change color when chat is open */
+  }
+  .chat-box {
+    position: fixed;
+    bottom: 85px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    width: 320px; /* Adjust as needed */
+    background-color: #fff; /* Chat box background color */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: block; /* Initially hidden */
+  }
+  /* Styling for the chat input */
+.chat-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 1px solid #ccc; 
+  }
+  
+  .chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+  }
+  
+  
+  
+  /* Styling for the chat content */
+  .chat-content {
+    margin-top: 40px;
+    padding: 10px;
+    height: 200px; /* Adjust as needed */
+    overflow-y: scroll;
+  }
+  
+  /* Styling for individual chat messages */
+ .message {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message .sender {
+  font-weight: bold;
+}
+
+.message .text {
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%; /* Limit the width of received messages */
+}
+
+/* Styling for "You" messages */
+.message.sent .text {
+  background-color: #FAF0F0; /* "You" message background color */
+  color: black; /* "You" message text color */
+  align-self: flex-start; /* Align "You" messages to the left */
+}
+
+/* Styling for "Support" messages */
+.message.received.support .text {
+  background-color: black; /* "Support" message background color */
+}
+
+/* Align received "Support" messages to the right */
+.message.received.support {
+  align-self: flex-end;
+}
+
+
+  
+  /* Styling for the send icon */
+.send-icon {
+    
+    color: #9B0113;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #9B0113; /* Close icon color */
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .hero-image-section {
+        display: none;
+    }
+    .text-section {
+        width: 100%;
+        padding: 0;
+    }
+    .text-title, .text-descritpion {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .text-headline {
+        font-size: 20px;
+    }
+    .text-title {
+        font-size: 28px;
+        margin-left:-150%;
+        margin-top: -50%;
+    }
+    .text-descritpion {
+        font-size: 16px;
+    }
+    .text-appointment-btn {
+        font-size: 16px;
+    }
+    .text-stats {
+        gap: 18px;
+    }
+    .text-stats-container > p {
+        font-size: 16px;
+    }
+    .text-stats-container p:first-child {
+        font-size: 22px;
+    }
+    .scroll-up {
+        bottom: 32px;
+        right: 32px;
+    }
+}

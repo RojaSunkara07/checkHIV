@@ -1,0 +1,92 @@
+/* sidebar.module.css */
+
+/* Style for the sidebar container */
+.sidebar {
+    background-color: #F3DEDE;
+    width: 250px;
+    height: 989px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Style for the list items within the sidebar */
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px; /* Increase the margin-top value to move the entire list down */
+  }
+  
+  .sidebar li {
+    margin: 10px 40px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the icons */
+  .sidebar img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the links */
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  /* Style for the "Logout" item */
+  .logout-item {
+    margin-top: 100px; /* Add space above the "Logout" item */
+  }
+  
+  .logout-item img {
+    margin-top: 100px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .logout-item a {
+    margin-top: 100px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  /* Additional padding at the bottom of the list items */
+  .sidebar li:last-child {
+    margin-bottom: 40px;
+  }
+  
+  .sidebar a:hover {
+    color: #555;
+  }
+  .sidebar-title{
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .sidebar-title a {
+    color: #000;
+    letter-spacing: .6px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ 
+ 
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 140px; /* Increase the margin-top value to move the list down */
+  }
+  

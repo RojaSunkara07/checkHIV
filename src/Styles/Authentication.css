@@ -1,0 +1,141 @@
+/* Authentication.css */
+
+ 
+
+/* Modal overlay style */
+
+.ReactModal__Overlay {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+
+  display: flex;
+
+  justify-content: center; /* Center horizontally */
+
+  align-items: center; /* Center vertically */
+
+}
+
+
+
+/* Modal content style */
+
+.ReactModal__Content {
+
+  position: relative;
+
+  background-color: #fff;
+
+  border-radius: 8px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+
+  width: 300px; /* Adjust the width as needed */
+
+  height:300px;
+
+  padding: 20px;
+
+  margin-left: 450px;
+
+}
+
+
+
+
+
+
+
+
+
+/* Title style */
+
+.auth-title {
+  font: 400 30px "Lato", sans-serif;
+  margin-top: 30px;
+  margin-left: 15%;
+  color: black; /* Change the title text color */
+}
+
+.auth-para{
+  font: 400 15px "Lato", sans-serif;
+  margin-bottom: 20px;
+}
+
+.auth-input{
+  border: none;
+  border-bottom: 1.5px solid #000;
+  width: 70%;
+  outline: none;
+  margin-top: 40px;    
+}
+
+/* Input style */
+
+
+
+
+
+/* Submit button style */
+
+.auth-button {
+  padding: 5px 60px;
+  color: white;
+  outline: transparent;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: .8px;
+  cursor: pointer;
+  transition: all .4s ease;
+  margin-top: 20px;
+}
+.auth-button:hover{
+  box-shadow: none;
+}
+
+
+
+
+
+.close-button {
+
+  position: absolute;
+
+  margin-top: -30px;
+
+  margin-left: 90px;
+
+  background: none;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+
+
+/* Close icon style */
+
+.close-button svg {
+
+  font-size: 1.5rem; /* Adjust the icon size as needed */
+
+  color: black; /* Change the icon color */
+
+}
+
+
+

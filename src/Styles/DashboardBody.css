@@ -1,0 +1,192 @@
+/* Dashboard.css */
+
+.dashboard {
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  grid-template-areas:
+    'top-left top-right'
+    'bottom-left bottom-right';
+  padding: 20px;
+}
+
+.bottom-left {
+  grid-area: bottom-left;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add box shadow here */
+}
+
+.bottom-right {
+  grid-area: bottom-right;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add box shadow here */
+}
+/*top-left*/
+.top-left {
+  grid-area: top-left;
+}
+
+.dashboard-dp{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #9B0113;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.dashboard-dp svg {
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.user-name {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Lato", sans-serif;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 5px;
+}
+.gender{
+  color: rgba(0, 0, 0, 0.59);
+  text-align: left;
+  font: 400 20px "Lato", sans-serif;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 50px;
+
+}
+.hiv-status{
+  color: rgba(0, 0, 0, 0.59);
+  text-align: left;
+  font: 400 20px "Lato", sans-serif;
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 10px;
+}
+.last-tested{
+  color: rgba(0, 0, 0, 0.59);
+  text-align: left;
+  font: 400 20px "Lato", sans-serif;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 10px;
+
+}
+/*top-right*/
+.top-right {
+  grid-area: top-right;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add box shadow here */
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #f3dede;
+  border-width: 1px;
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  left: 750px;
+  top: 90px;
+  box-shadow: 3px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.top-right h2 {
+  font: 25px "Lato", sans-serif;
+  color:black;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.form-group{
+  color: rgba(0, 0, 0, 0.59);
+  text-align: left;
+  font: 400 20px "Lato", sans-serif;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.form-group input{
+  background: rgba(243, 222, 222, 0.21);
+  border-radius: 20px;
+  width: 232px;
+  height: 25px;
+  position: relative;
+  border-color: none;
+}
+.form-group input[type="date"]::placeholder {
+  color: white; /* Placeholder text color */
+}
+
+/* Transition effect for the calendar opening */
+.form-group input[type="date"],
+.form-group select {
+  background: rgba(243, 222, 222, 0.21);
+  border-radius: 20px;
+  padding: 10px;
+  border: none; /* Remove default borders */
+  outline: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  /* Add any other styling you need */
+}
+
+
+/* Style for the input field when it's focused */
+.form-group input[type="date"]:focus {
+  border-color: #007bff; /* Change border color when focused */
+  outline: none; /* Remove the default outline */
+}
+.radio-buttons {
+  display: inline-block; /* This will make the radio buttons appear in one line */
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 150px; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.dropdown-content label {
+  display: block;
+  padding: 4px 10px;
+}
+
+.dropdown-content input[type="checkbox"] {
+  margin-right: 4px;
+}
+/* NotificationPopup.css */
+.notification-popup {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+

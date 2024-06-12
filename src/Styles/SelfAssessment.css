@@ -1,0 +1,63 @@
+/* Assessment.css */
+.question-container{
+    background-color: white;
+    margin-top: 20px;
+}
+.assessment-title {
+    color: #000;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+  }
+  
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question-text {
+    font-size: 18px;
+    color: #000;
+}
+
+.option-text {
+    font-size: 18px;
+    color: rgb(77, 75, 75);
+    margin-left: 10px;
+}
+
+button {
+    padding: 14px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #9B0113;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 80px;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.assessment-title {
+    color: #000;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+}
+
+.assessment-highlight {
+    color: #9B0113;
+    font-family: Cambria, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.assessment-container {
+    padding-left: 80px;
+    background-color: white;
+}

@@ -1,0 +1,118 @@
+/* App.css or your preferred CSS file */
+
+/* Main container for the entire component */
+#maps{
+
+ 
+  max-height: 200px;
+}
+.locate-main {
+    margin-left:3%;
+    width:100%;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    padding: 20px; /* Add some padding for spacing */
+    /* Include padding in the width and height calculations */
+  
+  }
+  
+  /* Container for the left content (profile picture and notification toggle) */
+  
+  
+  /* Container for the right content (category and location selection) */
+  .locate-body {
+    flex-grow: 1; /* Allow the right content to grow and fill the available space */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+  }
+  .locate-body h1{
+    width: 500px;
+    color: black;
+    font: 400 20px "Lato", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+  
+  }
+  
+  /* Style for the category and location dropdowns */
+  .locate-selectors {
+    display: flex;
+  }
+  
+  /* Style for the category dropdown */
+  .locate-category {
+    width: 500px;
+    color: black;
+    font: 400 20px "Lato", sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    margin-right: 20px; /* Add spacing between category and location dropdowns */
+  }
+  
+  /* Style for the location dropdown */
+  .locate-location {
+    width: 500px;
+    color: black;
+    font: 400 20px "Lato", sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    margin-bottom: 20px; /* Add spacing between location dropdown and map */
+  }
+  
+  /* Style for the map */
+  .locate-maps {
+    height: auto;
+    width: 79vw;
+
+
+    
+  }
+  .locate-maps p{
+    color: rgb(77, 75, 75);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+  }
+  /* Style for the category and location dropdowns */
+.locate-selectors {
+    display: flex;
+    align-items: center; /* Vertically align the dropdowns */
+  }
+  
+  /* Style for the category dropdown */
+  .locate-category select,
+  .locate-location select {
+    width: 200px; /* Set the width of the dropdowns */
+    font: 400 16px "Lato", sans-serif;
+    margin-left: 5px;
+    
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  /* Style for the location dropdown */
+  .locate-location select {
+    margin-left: 20px; /* Add spacing between the category and location dropdowns */
+  }
+  
+  /* Style for dropdown options */
+  .locate-category select option,
+  .locate-location select option {
+    padding: 10px; /* Add padding for spacing */
+    font-size: 14px; /* Set the font size for options */
+  }
+  
+  /* Style for the dropdown when it's open */
+  .locate-category select:focus,
+  .locate-location select:focus {
+    border-color: #9B0113; /* Change border color when focused to #9B0113 */
+    box-shadow: 0 0 5px rgba(155, 1, 19, 0.5); /* Add a shadow with #9B0113 when focused */
+  }
+  .locate-selectors option{
+    font: 400 16px "Lato", sans-serif;
+  }
+  
+  
+  /* Additional styling as needed */
+  

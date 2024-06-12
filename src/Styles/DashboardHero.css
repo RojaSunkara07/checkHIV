@@ -1,0 +1,162 @@
+/* DashboardHero.css */
+
+/* Container for the profile and notification icons */
+.section-container {
+    position: relative; /* Ensure that it's a positioned container */
+  }
+  
+  /* Style for the profile picture */
+  .profile-picture {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #9B0113;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .profile-picture:hover {
+    background-color: #9B0113;
+    transform: scale(1.1);
+  }
+  
+  /* Style for the profile picture icon */
+  .profile-picture svg {
+    color: white;
+  }
+  
+  /* Style for the notification toggle */
+  .notification-toggle {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+    /* Style for the notification toggle icon */
+  .notification-toggle svg {
+    color: black;
+  }
+  
+  .logout{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .logout:hover {
+    background-color: #9B0113;
+    transform: scale(1.1);
+    color: white;
+  }
+ /* AdminDashboard.css */
+
+/* ... (previous styles) */
+
+/* Styles for the user list table */
+.users-list {
+  margin-top: 250px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #e0e0e0;
+}
+
+table button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+/* AdminDashboard.css */
+
+/* ... (previous styles) */
+
+/* Styles for the filter dropdown and search input container (Side by Side) */
+.filter-and-search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Styles for the filter dropdown */
+.filter-dropdown {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.filter-dropdown label {
+  margin-right: 10px;
+}
+
+.filter-dropdown select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for the search input */
+.search-input {
+  flex: 1;
+}
+
+.search-input label {
+  margin-right: 10px;
+}
+
+.search-input input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* ... (previous styles) */
+
+/* Add more styles as needed */
+
+  

@@ -1,0 +1,72 @@
+/* History.css (or your preferred CSS file) */
+
+/* Set the background color for the whole page */
+body {
+    background-color: #FFFFFF; /* White background color */
+    margin: 0; /* Remove default margin to fill the entire viewport */
+    padding: 0; /* Remove default padding to fill the entire viewport */
+  }
+  
+  /* Container styles */
+  .history {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Lato', sans-serif; /* Use Lato Sans-serif font family */
+    color: #000; /* Black text color */
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 20px; /* Reduced heading size */
+    color: #9b0113; /* Heading color in 9B0113 */
+    margin-bottom: 10px;
+    margin-left: 8px;
+  }
+  
+  /* Date filters styles */
+  .date-filters {
+    margin-bottom: 20px;
+  }
+  
+  .date-filters label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .date-filters input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Table styles */
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .report-table th,
+  .report-table td {
+    padding: 10px;
+    border: none;
+    text-align: left;
+  }
+  
+  .report-table th {
+    background-color: #9b0113; /* 9B0113 for table header background */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .report-table tbody tr:nth-child(even) {
+    background-color: #f3dede; /* F3DEDE for even rows */
+  }
+  
+  .report-table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+  }
+  

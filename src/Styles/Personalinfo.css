@@ -1,0 +1,160 @@
+/* PersonalInfoForm.css */
+
+/* Container styles */
+/* Set the background color of the entire page */
+body {
+  background-color: #F3DEDE;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Label styles */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  flex-basis: calc(50% - 10px); /* 50% width with some spacing */
+}
+
+/* Input and textarea styles */
+.form-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  flex-grow: 1;
+  transition: border-color 0.2s ease-in-out;
+  margin-right: 10px; /* Spacing between fields */
+}
+
+/* Remove input outline on focus */
+.form-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Radio button styles */
+.radio-group {
+  margin-right: 5px;
+}
+
+/* Button styles */
+.skip-button {
+  padding: 5px 60px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #9B0113;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-left: 1000px;
+    margin-bottom: 20px;
+}
+
+/* Button hover effect */
+.skip-button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Additional styling for specific fields (e.g., gender) */
+/* You can add more specific styling as needed */
+.radio-group,
+.age-input {
+  margin-bottom: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .form-label {
+    flex-basis: 100%; /* Full width on smaller screens */
+  }
+
+  .form-input {
+    margin-right: 0; /* No spacing on smaller screens */
+  }
+}
+
+.checkbox-input {
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 45px; /* Adjust the font size as needed */
+  text-align: left; /* Align the heading to the left */
+  margin-left: 100px; /* Add left margin to the heading */
+  margin-top: 30px; /* Add top margin to move the text down */
+}
+
+
+.account-color {
+  color: #9B0113; /* Apply color to "Account" */
+}
+
+/* PersonalInfoForm.css */
+
+/* Add margin to move fields to the right */
+.form-group {
+  margin-left: 160px; /* Adjust the margin as needed */
+}
+
+/* PersonalInfoForm.css */
+
+/* Adjust the font size, font style, and move text down */
+.form-container {
+  padding: 20px;
+  /* Other styles... */
+}
+
+.form-label {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold; /* Add font style if needed */
+  font-family: 'Lato', sans-serif;
+  margin-top: 30px;
+}
+
+.form-input {
+  font-size: 15px; /* Adjust the font size as needed */
+  /* Other styles... */
+  margin-left: 120px; /* Move text down by adjusting margin */
+  margin-top: 50px; /* Add top margin to move the text down */
+}
+
+/* Other CSS styles... */
+
+
+/* CSS for Checkbox Styling */
+/* CSS for Checkbox Styling */
+.form-group-checked {
+  margin-top: 30px; /* Adjust the top margin as needed */
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #333; /* Change the font color as needed */
+  margin-left: 100px;
+}
+
+/* Move the checkboxes down and change their font size and color */
+.form-group-checked label {
+  margin-top: 10px; /* Adjust the top margin as needed */
+  font-size: 15px; /* Adjust the font size as needed */
+  color: #666; /* Change the font color as needed */
+}
+
+
+
